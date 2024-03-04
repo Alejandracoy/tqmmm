@@ -1,0 +1,78 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    padding: 10px;
+    color: black;
+}
+
+
+
+button {
+    color: black;
+    width: 80px;
+    height: 40px;
+    border: 3px solid #b43043;
+    border-radius: 10px;
+    background-color: #dc2e31;
+    font-size: xx-large;
+    
+}
+
+#Si {
+    border-radius: 10px;
+    border: 3px solid #b43043;
+    background-color: #dc2e31;
+    width: 200px;
+    height: 80px;
+    grid-row:  5;
+    grid-column: 5; 
+}
+
+#No {
+    grid-row: 5;
+    grid-column: 6;
+    
+}
+
+section {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    width: 1500px;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+}
+
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    max-height: 673px;
+    margin: 0 auto;
+    background-color: #c98b8b ;
+    
+}
+
+p {
+    font-size: xx-large;
+    justify-content: center;
+    color: pink;
+}
+
+img{
+    height: 210px;
+}
+
+a{
+    height: 20000px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: #cb7373;
+}
+

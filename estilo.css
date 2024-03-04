@@ -1,0 +1,10 @@
+body{
+    background-color: PINK;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    margin-left: 100px;
+}
